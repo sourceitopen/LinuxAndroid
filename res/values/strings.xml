@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LinuxWorld</string>
+    <string name="welcome">Welcome To 89neuron World!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash">89neuron</string>
+    <string name="page_one">Page One</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_page_one">About Us</string>
+    <string name="about_us">We are going to build something good . Wait and watch</string>
+
+</resources>
