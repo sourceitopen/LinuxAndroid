@@ -11,6 +11,7 @@
     <string name="page_four">Page Four</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_page_one">About Us</string>
+    <string name="back_button">Back</string>
     <string name="about_us">We are going to build something good . Wait and watch</string>
 
 </resources>

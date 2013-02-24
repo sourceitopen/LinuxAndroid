@@ -3,9 +3,13 @@ package com.explore.siemens;
 import java.util.ArrayList;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 
-public class PageOne extends Activity {
+public class PageOne extends Activity implements OnClickListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,5 +25,20 @@ public class PageOne extends Activity {
 		dataToView.setText(receivedResponse.get(0));
 		dataToView.setText(receivedResponse.get(1));
 		dataToView.setText(receivedResponse.get(2));
+		Button backButton = (Button)findViewById(R.id.back_button);
+		backButton.setOnClickListener(this);
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch (v.getId()) {
+    	case R.id.back_button:
+    	Intent i = new Intent(this,Home.class);
+    	startActivity(i);
+    	break;
+    	// More buttons go here (if any) ...
+    	}
+		
 	}	
 }
