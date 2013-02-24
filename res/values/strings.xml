@@ -6,6 +6,9 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_splash">89neuron</string>
     <string name="page_one">Page One</string>
+    <string name="page_two">Page Two</string>
+    <string name="page_three">Page Three</string>
+    <string name="page_four">Page Four</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_page_one">About Us</string>
     <string name="about_us">We are going to build something good . Wait and watch</string>

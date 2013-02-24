@@ -1,19 +1,40 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30dip"
+	android:orientation="horizontal"
     tools:context=".Home" >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+		android:layout_marginBottom="25dip"
+		android:textSize="24.5sp"
         android:text="@string/welcome" />
      <Button
      android:id="@+id/page_one_button"
      android:layout_height="wrap_content"
-     android:layout_width="wrap_content"
+     android:layout_width="fill_parent"
      android:text="@string/page_one"
      android:onClick="show_page_one" />
-</RelativeLayout>
+     <Button
+     android:id="@+id/page_two_button"
+     android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+     android:text="@string/page_two"
+     android:onClick="show_page_two" />
+     <Button
+     android:id="@+id/page_three_button"
+     android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+     android:text="@string/page_three"
+     android:onClick="show_page_three" />
+     <Button
+     android:id="@+id/page_four_button"
+     android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+     android:text="@string/page_four"
+     android:onClick="show_page_four" />
+</LinearLayout>
